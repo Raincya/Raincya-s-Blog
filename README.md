@@ -1,4 +1,4 @@
-# Raincya-s-Blog
+# Raincya's Blog
 ## - Description
 
 A **layui-based** implementation of the blog's front-end.
