@@ -15,10 +15,6 @@ The front-end of this blog uses layui as the base style, and prism is referenced
 ![i6w9TJ.png](https://i.328888.xyz/2023/04/18/i6w9TJ.png)
 ![i6wKkc.png](https://i.328888.xyz/2023/04/18/i6wKkc.png)
 
-## - Preview Online
-
-**url** : 
-
 ## - Links
 
 [Prism (prismjs.com)](https://prismjs.com/)
