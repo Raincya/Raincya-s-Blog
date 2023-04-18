@@ -7,19 +7,13 @@ The front-end of this blog uses layui as the base style, and prism is referenced
 
 ## - Preview
 
-![./preview/home.png](home)
-
-![./preview/article1.png](article1)
-
-![./preview/article2.png](article2)
-
-![./preview/archive.png](archive)
-
-![./preview/categories.png](categories)
-
-![./preview/home.png](category)
-
-![./preview/about-me.png](about-me)
+![i6whNE.png](https://i.328888.xyz/2023/04/18/i6whNE.png)
+![i6w5hC.png](https://i.328888.xyz/2023/04/18/i6w5hC.png)
+![i6wSuP.png](https://i.328888.xyz/2023/04/18/i6wSuP.png)
+![i6wsHX.png](https://i.328888.xyz/2023/04/18/i6wsHX.png)
+![i6wvet.png](https://i.328888.xyz/2023/04/18/i6wvet.png)
+![i6w9TJ.png](https://i.328888.xyz/2023/04/18/i6w9TJ.png)
+![i6wKkc.png](https://i.328888.xyz/2023/04/18/i6wKkc.png)
 
 ## - Preview Online
 
