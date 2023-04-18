@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>首页</title>
+	<link href="./layui/css/layui.css" rel="stylesheet">
+	<link href="./assets/css/main.css" rel="stylesheet">
+</head>
+<body class="bg font-main">
+	<!-- header 开始 -->
+	<div class="layui-header header top">
+		<ul class="layui-nav">
+			<li class="layui-nav-item"><img class="logo-img mob-show" src="./assets/img/logo.png"></li>
+			<li class="layui-nav-item layui-this"><a href="./index.html"><i class="layui-icon layui-icon-home"></i> 首 页</a></li>
+			<li class="layui-nav-item"><a href="./archive.html"><i class="layui-icon layui-icon-slider"></i> 归 档</a></a></li>
+			<li class="layui-nav-item"><a href="./categories.html"><i class="layui-icon layui-icon-component"></i> 分 类</a></li>
+			<li class="layui-nav-item"><a href="./about-me.html"><i class="layui-icon layui-icon-username"></i> 关 于 作 者</a></li>
+		</ul>
+	</div>
+	<!-- header 结束 -->
+	<div class="layui-container layui-row page-main">
+		<div class="layui-col-md1">&nbsp;</div>
+		<!-- 左侧边栏 开始 -->
+		<div class="layui-col-md3 rd mob-show">
+			<div class="layui-panel site-menu rd">
+				<div class="layui-card rd">
+					<div class="layui-card-header">
+						<i class="layui-icon layui-icon-theme"></i> 作者信息
+					</div>
+					<div class="layui-card-body">
+						<div class="layui-row">
+							<div class="layui-col-md5">
+								<img class="avatar" src="http://q1.qlogo.cn/g?b=qq&nk=25569983&s=640"/>
+							</div>
+							<div class="layui-col-md7">
+								<h4><i class="layui-icon layui-icon-friends"></i> Nick: Raincya</h4><hr>
+								<h4><i class="layui-icon layui-icon-login-qq"></i> QQ: 25569983</h4>
+							</div>
+						</div>
+						<div class="layui-row">
+							<blockquote class="layui-elem-quote quote-margin">
+								梦里相见却相顾无言
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="layui-panel rd">
+				<div class="layui-card rd">
+					<div class="layui-card-header">
+						<i class="layui-icon layui-icon-form"></i> 最近文章
+					</div>
+					<div class="layui-card-body">
+						<div class="layui-row">
+							<ul class="layui-menu">
+								<li class="layui-menu-item">测试文章 - [2023/04/16]</li>
+								<li class="layui-menu-item">测试文章 - [2023/04/16]</li>
+								<li class="layui-menu-item">测试文章 - [2023/04/16]</li>
+								<li class="layui-menu-item">测试文章 - [2023/04/16]</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="layui-panel rd">
+				<div class="layui-card rd">
+					<div class="layui-card-header">
+						<i class="layui-icon layui-icon-component"></i> 常更分类
+					</div>
+					<div class="layui-card-body">
+						<div class="layui-row">
+							<ul class="layui-menu">
+								<li class="layui-menu-item">测试分类1 - [20篇]</li>
+								<li class="layui-menu-item">测试分类2 - [17篇]</li>
+								<li class="layui-menu-item">测试分类3 - [10篇]</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="layui-panel rd">
+				<div class="layui-card rd">
+					<div class="layui-card-header">
+						<i class="layui-icon layui-icon-note"></i> 文章标签
+					</div>
+					<div class="layui-card-body">
+						<span class="layui-badge layui-bg-orange">测试1</span>&nbsp;
+						<span class="layui-badge">html</span>&nbsp;
+						<span class="layui-badge layui-bg-green">css</span>&nbsp;
+						<span class="layui-badge layui-bg-blue">javascript</span>&nbsp;
+						<span class="layui-badge layui-bg-green">测试2</span>&nbsp;
+						<span class="layui-badge">测试2</span>
+					</div>
+				</div>
+			</div>
+		</div><br>
+		<!-- 左侧边栏 结束 -->
+		<div class="layui-col-md1">&nbsp;</div>
+		<!-- main 开始 -->
+		<div class="layui-col-md6 site-content">
+			<div class="layui-carousel rd" id="lb">
+			    <div class="rd" carousel-item>
+			        <div><img class="lbt" src="./assets/img/lb1.jpg"/></div>
+			        <div><img class="lbt" src="./assets/img/lb2.jpg"/></div>
+			        <div><img class="lbt" src="./assets/img/lb3.jpg" /></div>
+			        <div><img class="lbt" src="./assets/img/lb4.jpg" /></div>
+			    </div>
+			</div>
+			<br>
+			<blockquote class="layui-elem-quote">
+				文 章 总 览
+			</blockquote>
+			<div class="layui-card rd">
+				<div class="layui-card-header article-title">
+					<h2><a href="./article.html">测试文章标题</a></h2>
+				</div>
+				<div class="layui-card-body">
+					<div class="layui-row article-main">
+						<div class="layui-col-md4 mob-show">
+							<img class="article-img rd" src="assets/img/lb4.jpg"/>
+						</div>
+						<div class="layui-col-md8">
+							<div class="article-content">
+								测试文章内容...
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="layui-row text-center">
+						<div class="layui-col-md4">
+							<i class="layui-icon layui-icon-log"></i> 2023-04-16
+						</div>
+						<div class="layui-col-md4 mob-show">
+							<i class="layui-icon layui-icon-component"></i> 测试分类
+						</div>
+						<div class="layui-col-md4 mob-show">
+							<i class="layui-icon layui-icon-note"></i> <span class="layui-badge layui-bg-orange">html</span> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="layui-card rd">
+				<div class="layui-card-header article-title">
+					<h2><a href="./article.html">测试文章标题</a></h2>
+				</div>
+				<div class="layui-card-body">
+					<div class="layui-row article-main">
+						<div class="layui-col-md4 mob-show">
+							<img class="article-img rd" src="assets/img/lb4.jpg"/>
+						</div>
+						<div class="layui-col-md8">
+							<div class="article-content">
+								测试文章内容...
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="layui-row text-center">
+						<div class="layui-col-md4">
+							<i class="layui-icon layui-icon-log"></i> 2023-04-16
+						</div>
+						<div class="layui-col-md4 mob-show">
+							<i class="layui-icon layui-icon-component"></i> 测试分类
+						</div>
+						<div class="layui-col-md4 mob-show">
+							<i class="layui-icon layui-icon-note"></i> <span class="layui-badge layui-bg-orange">html</span> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="layui-card rd">
+				<div class="layui-card-header article-title">
+					<h2><a href="./article.html">测试文章标题</a></h2>
+				</div>
+				<div class="layui-card-body">
+					<div class="layui-row article-main">
+						<div class="layui-col-md4 mob-show">
+							<img class="article-img rd" src="assets/img/lb4.jpg"/>
+						</div>
+						<div class="layui-col-md8">
+							<div class="article-content">
+								测试文章内容...
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="layui-row text-center">
+						<div class="layui-col-md4">
+							<i class="layui-icon layui-icon-log"></i> 2023-04-16
+						</div>
+						<div class="layui-col-md4 mob-show">
+							<i class="layui-icon layui-icon-component"></i> 测试分类
+						</div>
+						<div class="layui-col-md4 mob-show">
+							<i class="layui-icon layui-icon-note"></i> <span class="layui-badge layui-bg-orange">html</span> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="layui-col-md1">&nbsp;</div>
+		<!-- main 结束 -->
+	</div>
+	<script src="./layui/layui.js"></script>
+	<script>
+		// 轮播图
+		layui.use('carousel', function () 
+		{
+	        var carousel = layui.carousel;
+		    carousel.render(
+			{
+		        elem: '#lb',
+		        width: 'full',
+		        height: '300px'
+		    });
+		});
+	</script>
+</body>
+</html>
